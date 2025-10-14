@@ -1,0 +1,57 @@
+.alumno-card {
+  padding: 16px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.alumno-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.alumno-card.presente {
+  background-color: #d4edda;
+  border: 3px solid #28a745;
+}
+
+.alumno-card.ausente {
+  background-color: #f8d7da;
+  border: 3px solid #dc3545;
+}
+
+.alumno-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.alumno-nombre {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.alumno-estado {
+  color: white;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.alumno-estado.presente {
+  background-color: #28a745;
+}
+
+.alumno-estado.ausente {
+  background-color: #dc3545;
+}
+
