@@ -1,0 +1,40 @@
+.home-container {
+    background: white;
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: none;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.home-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 0 0 1rem 0;
+    font-weight: bold;
+}
+
+.home-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 1rem;
+}
+
+.home-card {
+    margin-top: 2rem;
+    padding: 2rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 12px;
+    color: white;
+}
+
+.home-card h2 {
+    margin: 0 0 1rem 0;
+}
+
+.home-card p {
+    margin: 0;
+}
+
